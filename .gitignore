@@ -1,0 +1,35 @@
+## --- Visual Studio Gereksiz Dosyalar ---
+
+# Derleme çıktıları (Bunları asla yükleme)
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio geçici ayar klasörleri
+.vs/
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.cachefile
+
+# Hata ayıklama ve log dosyaları
+*.log
+*.tlog
+*.tmp
+*.pdb
+
+## --- Nuget Paketleri ---
+# Paketleri yükleme, internetten indirilebilirler (Yer tasarrufu sağlar)
+packages/
+# Ancak paket ayar dosyasını koru
+!packages/repositories.config
+
+## --- SQL Server Geçici Dosyaları ---
+# Çalışan veritabanı kilit dosyaları (Sen .bak dosyasını elle yüklüyorsun, bunlara gerek yok)
+App_Data/*.mdf
+App_Data/*.ldf
+
+## --- Diğer Gereksiz Sistem Dosyaları ---
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
