@@ -14,11 +14,18 @@ Kişi bilgilerini saklar, düzenler ve anlık olarak filtreler. Temel CRUD işle
 
 ---
 
-## 📸 Ekran Görüntüsü
+## 🎬 Demo
 
-![Uygulama Arayüzü](screenshot.png)
+![demo](docs/demo.gif)
 
----
+Yeni kişi ekleme, ad/soyad ile canlı arama ve cinsiyete göre filtreleme.
+
+| Yeni kişi eklendi | Kızları listele filtresi |
+| --- | --- |
+| ![Yeni kişi eklendi](docs/kayit.png) | ![Kızları listele filtresi](docs/filtre.png) |
+
+> Görüntüler, depodaki kurulum script'iyle kurulan örnek veritabanı üzerinde uygulama çalıştırılarak alınmıştır.
+
 
 ## 🚀 Özellikler
 
